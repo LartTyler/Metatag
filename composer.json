@@ -1,4 +1,11 @@
 {
+	"name": "dbstudios/metatag",
+	"authors": [
+		{
+			"name": "Tyler Lartonoix / Daybreak Studios",
+			"email": "overlordcodemonkey@live.com"
+		}
+	],
 	"repositories": [
 		{
 			"type": "composer",
@@ -7,5 +14,10 @@
 	],
 	"require": {
 		"gravitas/plugin-base": "~2.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Metatag\\": "src/Metatag"
+		}
 	}
 }
