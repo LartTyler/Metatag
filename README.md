@@ -1,7 +1,3 @@
-# Metatag
-
-A metadata tagging system for Wordpress. 
-
 # Usage
 
 In your page or post, simply add the metatag shortcode:
