@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "9ca47bc93d2b35a0bf38391beb8ab067",
+    "packages": [
+        {
+            "name": "dbstudios/php-enum",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:LartTyler/PHP-Enum.git",
+                "reference": "4697a6780a1eee48069abc1b6fdbfef61a9cb360"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packages.scend.net/dist/dbstudios-php-enum-4697a6780a1eee48069abc1b6fdbfef61a9cb360-zip-6fbfe1.zip",
+                "reference": "4697a6780a1eee48069abc1b6fdbfef61a9cb360",
+                "shasum": "5033a66c62c435f51fe16cfe353d6b0dd32d9498"
+            },
+            "require": {
+                "php": ">= 5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "dbstudios\\": "src/dbstudios"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Tyler Lartonoix",
+                    "email": "overlordcodemonkey@live.com"
+                }
+            ],
+            "time": "2014-06-12 18:39:45"
+        },
+        {
+            "name": "gravitas/plugin-base",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Gravitas-GM/Plugin-Base.git",
+                "reference": "cc13bd610557517e3180ba699311b2a7ea52b9b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://packages.scend.net/dist/gravitas-plugin-base-cc13bd610557517e3180ba699311b2a7ea52b9b5-zip-d3f24f.zip",
+                "reference": "cc13bd610557517e3180ba699311b2a7ea52b9b5",
+                "shasum": "ce4d2f84a33aa61895bdd5a009f34631b0faef69"
+            },
+            "require": {
+                "dbstudios/php-enum": "~1.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "gravitas\\": "src/gravitas"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Tyler Lartonoix / Gravitational Marketing",
+                    "email": "development@gravitationalmarketing.com"
+                }
+            ],
+            "time": "2014-06-16 18:51:53"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

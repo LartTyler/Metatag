@@ -1,0 +1,11 @@
+{
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://packages.scend.net"
+		}
+	],
+	"require": {
+		"gravitas/plugin-base": "~2.0"
+	}
+}
