@@ -22,8 +22,8 @@ In order to gain access to the meta values in your template files (or anywhere e
   ?>
   
   <h1 class="title">
-    <?= MetaTag->get('title', 'Untitled') ?>
-    <small>Authored by <?= MetaTag->get('author', 'anonymous') ?></small>
+    <?= Metatag->get('title', 'Untitled') ?>
+    <small>Authored by <?= Metatag->get('author', 'anonymous') ?></small>
   </h1>
   
   <div class="container">
